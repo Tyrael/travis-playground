@@ -1,4 +1,1 @@
 language: c
-
-script:
-	- echo "ok";
