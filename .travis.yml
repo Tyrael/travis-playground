@@ -1,1 +1,7 @@
 language: c
+
+before_install:
+	- dpkg -l;
+
+script:
+	- echo 123;
