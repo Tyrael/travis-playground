@@ -1,7 +1,7 @@
 language: c
 
 before_install:
-    - dpkg -l
+    - dpkg --get-selections '*'
 
 script:
     - echo 123
