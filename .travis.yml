@@ -2,6 +2,7 @@ language: c
 
 before_install:
     - dpkg --get-selections '*'
+    - sudo dpkg --add-architecture i386
     - sudo apt-get update -qq;
     - sudo apt-get install -y ia32-libs libc6-i386 gcc-multilib g++-multilib;
     - sudo mv /usr/bin/xml2-config /usr/bin/xml2-config.x86_64;
