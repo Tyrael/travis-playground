@@ -1,4 +1,4 @@
-language: c
+language: php
 
 before_install:
     - dpkg --get-selections '*'
