@@ -2,7 +2,7 @@ language: c
 
 before_install:
     - dpkg --get-selections '*'
-    - sudo aptitude update -qq;
+    - sudo aptitude update;
     - sudo aptitude install gcc-multilib g++-multilib;
     - sudo mv /usr/bin/xml2-config /usr/bin/xml2-config.x86_64;
     - sudo apttotude install libxml2-dev:i386;
